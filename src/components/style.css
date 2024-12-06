@@ -1,0 +1,98 @@
+.bg-icon-circle {
+    background-color: rgb(13 110 253);
+    width: 75px;
+    height: 75px;
+}
+
+.bg-small-circle {
+    background-color: rgb(13 110 253);
+    width: 50px;
+    height: 50px;
+}
+
+.bg-img-width {
+    width: 150px;
+    height: 150px;
+}
+
+.newInvoice-topBar, header {
+    background-color: #e7e8ee;
+    border-bottom: 1px solid #d7daef;
+}
+
+.newInvoice-body {
+    background-color: #f1f2f5;
+}
+
+.label-clr-size {
+    color: rgb(10, 72, 164);
+    font-size: 13px;
+}
+
+.font-size {
+    font-size: 14px;
+}
+.fs-15 {
+    font-size: 15px;
+}
+.fs-16 {
+    font-size: 16px;
+}
+.fs-17 {
+    font-size: 17px;
+}
+.input-border {
+    border-bottom: 1px solid #e7e8ee;
+}
+
+/* Positioning the icon to the right */
+.input-with-icon {
+    position: relative;
+}
+
+.input-with-icon input {
+    padding-right: 30px;
+    /* Space for the icon */
+}
+
+.icon-right {
+    position: absolute;
+    top: 50%;
+    right: 2px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    /* Prevents the icon from interfering with input field */
+}
+
+.add-line-item {
+    border: 1.5px solid rgb(47, 127, 248);
+    color: rgb(47, 127, 248);
+}
+.clr-blue {
+    color: rgb(47, 127, 248);
+}
+.fs-13 {
+    font-size: 13px;
+}
+.home-bg {
+    background-color: #e7e8ee;
+}
+.dark-btn {
+    border-radius: 50px;
+}
+.tab-navBar {
+    background-color: #f1f2f5;
+}
+.form-control:focus {
+    box-shadow: 0 0 0px;/* Optional glow effect */
+}
+.position-fixed {
+    position: fixed;
+    z-index: 100;
+    background-color: white;
+}
+.close-icon {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+}
